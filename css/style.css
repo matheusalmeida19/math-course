@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align:center ;
+    font-size: medium;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+p1{
+    margin-bottom: 20px;
+}
+
+p2{
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(245, 28, 28);
+    color:rgb(255, 255, 255);
+    border-radius: 8px;
+    padding:10px 20px ;
+}
