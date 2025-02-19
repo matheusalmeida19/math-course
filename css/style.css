@@ -27,6 +27,8 @@ p2{
 button{
     background-color: rgb(245, 28, 28);
     color:rgb(255, 255, 255);
+    border: none;
     border-radius: 8px;
+    border-color: rgb(255, 255, 255) ;
     padding:10px 20px ;
 }
