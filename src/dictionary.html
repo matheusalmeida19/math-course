@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Dictionary</title>
+    <title>HTML Dictionary</title>
 </head>
 <body>
     <h1 style="background-color: aquamarine;">Dictionary for HTML 5 to Front End</h1> 
@@ -12,45 +12,57 @@
     
     <h4>The beginning of everything</h4>
     <h5>Doctype</h5>
-    <p> DOCTYPE html: é sempre a primeira linha e diz ao navegador qual o tipo de documento que ele deve apresentar na tela para o usuário. Nesse caso, nossa tag significa que este é um documento HTML5, a versão mais recente e compatível com todos navegadores modernos; </p>
-    <br>
-    <h5>Html</h5>
-    <h6>Head</h6>
-    <p>Todo o conteúdo de uma página deve ficar entre a tag de abertura e fechamento html;
-        head e /head>: o conteúdo desse elemento, com exceção do elemento title (que fica visível na janela do navegador, como na imagem do capítulo 2), não aparece para o usuário e geralmente é usado para inserir estilo e códigos relativos ao funcionamento do site, que se comunicam diretamente com o navegador;</p>
-
-    <br>
-    <h5>Title and body</h5>
     <p>
-        title e /title: título da página, visível no nome da aba/janela do navegador;
-        body e /body: habitat de todos os elementos que são visíveis na tela do usuário. Menus, imagens, links, enfim, tudo que você vê na tela fica aqui dentro.
+        <code>&lt;!DOCTYPE html&gt;</code>: é sempre a primeira linha e diz ao navegador qual o tipo de documento que ele deve apresentar na tela para o usuário. Nesse caso, nossa tag significa que este é um documento HTML5, a versão mais recente e compatível com todos navegadores modernos.
     </p>
-    <h2>List of main commands</h2>
-    <ul><!--Conjunto de uma lista-->
-        <li>links</li>
-        <em><p>Command - "a href"</p></em>
+    <br>
+
+    <h5>HTML</h5>
+    <h5>Head</h5>
+    <p>
+        Todo o conteúdo de uma página deve ficar entre a tag de abertura e fechamento <code>&lt;html&gt;</code>.
+        <br>
+        <code>&lt;head&gt; ... &lt;/head&gt;</code>: O conteúdo desse elemento, com exceção do elemento <code>&lt;title&gt;</code> (que fica visível na janela do navegador), não aparece para o usuário e geralmente é usado para inserir estilo e códigos relativos ao funcionamento do site, que se comunicam diretamente com o navegador.
+    </p>
+    <br>
+
+    <h5>Title and Body</h5>
+    <p>
+        <code>&lt;title&gt;</code> e <code>&lt;/title&gt;</code>: Define o título da página, visível no nome da aba/janela do navegador.
+        <br>
+        <code>&lt;body&gt;</code> e <code>&lt;/body&gt;</code>: Contém todos os elementos visíveis para o usuário, como menus, imagens, links e outros componentes da interface.
+    </p>
+
+    <h2>List of Main Commands</h2>
+    <ul>
+        <li>Links</li>
+        <p><code>&lt;a href="URL"&gt;Texto&lt;/a&gt;</code></p>
+
         <li>Images</li>
-        <em><p>Command - "img"</p></em>
+        <p><code>&lt;img src="imagem.png" alt="descrição"&gt;</code></p>
+
         <li>Tables</li>
-        <em><p>Command - table / tr - tr - td/ Rows and Columns </p></em>
-        <li>Forms</li>
-        <em><p>Command - uL - Unordered / ol - Ordered</p></em>
-        <li>Divisions and sections</li>
-        <em><p> Command Div</p></em>
+        <p><code>&lt;table&gt; &lt;tr&gt; &lt;td&gt; ... &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;</code></p>
+
+        <li>Lists</li>
+        <p><code>&lt;ul&gt; (não ordenada) &lt;ol&gt; (ordenada)</code></p>
+
+        <li>Divisions and Sections</li>
+        <p><code>&lt;div&gt;</code></p>
+
         <li>Comments</li>
-        <em><p>Command ul "!..."</p></em>
+        <p><code>&lt;!-- Comentário --&gt;</code></p>
     </ul>
     <br>
     
-    <h1>Tip table</h1>
+    <h1>Tip Table</h1>
 
-    <table>
+    <table border="1">
         <tr>
-            <strong><tr>Tip 1</tr></strong>
-            <strong><tr>Tip 2</tr></strong>
-            <strong><tr>Tip 3</tr></strong>
+            <th>Tip 1</th>
+            <th>Tip 2</th>
+            <th>Tip 3</th>
         </tr>
-        
         <tr>
             <td>Crie uma boa organização na estrutura do HTML</td>
             <td>Preste atenção na digitação</td>
